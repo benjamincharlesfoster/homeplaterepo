@@ -12,7 +12,7 @@ const pageDataLoadingAPI = getPageDataLoadingAPI();
 
 const AboutPage = loadable(() => import(/* webpackChunkName: "AboutPage" */ './containers/AboutPage/AboutPage'));
 const AuthenticationPage = loadable(() => import(/* webpackChunkName: "AuthenticationPage" */ './containers/AuthenticationPage/AuthenticationPage'));
-const CareersPage = loadable(() => import(/* webpackChunkName: "Careers"Page" */ './containers/CareersPage/CareersPage'));
+const CareersPage = loadable(() => import(/* webpackChunkName: "CareersPage" */ './containers/CareersPage/CareersPage'));
 const CheckoutPage = loadable(() => import(/* webpackChunkName: "CheckoutPage" */ './containers/CheckoutPage/CheckoutPage'));
 const ContactPage = loadable(() => import(/* webpackChunkName: "ContactPage" */ './containers/ContactPage/ContactPage'));
 const ContactDetailsPage = loadable(() => import(/* webpackChunkName: "ContactDetailsPage" */ './containers/ContactDetailsPage/ContactDetailsPage'));

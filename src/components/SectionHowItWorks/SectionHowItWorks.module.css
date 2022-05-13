@@ -1,0 +1,56 @@
+@import '../../styles/propertySets.css';
+
+
+.title {
+  @apply --marketplaceH1FontStyles;
+  margin-top: 0;
+  text-align: center;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing:-0.88px;
+
+
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  @media (--viewportMedium) {
+    flex-direction: row;
+  }
+}
+
+.step {
+  @media (--viewportMedium) {
+    width: 624px;
+    margin-right: 40px;
+  }
+}
+
+.step:last-of-type {
+  @media (--viewportMedium) {
+    margin-right: 0;
+  }
+}
+
+.stepTitle {
+  margin-top: 18px;
+  margin-left: 10px;
+  margin-bottom: 18px;
+  font-size: 28px;
+    font-weight: 500;
+
+  @media (--viewportMedium) {
+    margin-top: 21px;
+    margin-bottom: 18px;
+  }
+}
+
+.createListingLink {
+  margin-top: 18px;
+  @media (--viewportMedium) {
+    margin-top: 24px;
+  }
+}
